@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" preserveAspectRatio="none">
+    <g mask="url(&quot;#SvgjsMask2016&quot;)" fill="none">
+        <path fill="url(#prefix__SvgjsLinearGradient2017)" d="M0 0h1600v760H0z" />
+        <path
+            d="M447.533 625.146L418.569 499.69l-125.457 28.964 28.964 125.456zM1070.996 753.316l-26.45-124.439-124.439 26.45 26.45 124.439z"
+            fill="rgba(28, 83, 142, 0.4)" class="prefix__triangle-float1" />
+        <path d="M788.56 803.809l132.644-189.05-200.774-21.103z" fill="rgba(28, 83, 142, 0.4)"
+            class="prefix__triangle-float2" />
+        <path
+            d="M207.374 421.398c60.497.36 104.715-48.566 136.725-99.902 34.671-55.603 70.028-122.645 37.515-179.537-32.65-57.133-108.453-61.227-174.24-59.712-62.302 1.435-130.276 13.139-160.875 67.429-30.23 53.635-4.43 117.233 26.936 170.211 30.589 51.666 73.898 101.154 133.939 101.511"
+            fill="rgba(28, 83, 142, 0.4)" class="prefix__triangle-float3" />
+        <path d="M540.289 342.308l94.059 81.764 81.764-94.06-94.06-81.764z" fill="rgba(28, 83, 142, 0.4)"
+            class="prefix__triangle-float2" />
+        <path d="M453.037 593.465L306.47 664.95l71.485 146.566 146.566-71.485z" fill="rgba(28, 83, 142, 0.4)"
+            class="prefix__triangle-float3" />
+        <path d="M1266.29 31.37a250.63 250.63 0 10501.26 0 250.63 250.63 0 10-501.26 0z" fill="rgba(28, 83, 142, 0.4)"
+            class="prefix__triangle-float1" />
+        <path
+            d="M15.97 108.505c22.37 1.31 44.055-11.506 54.263-31.454 9.488-18.542 1.876-39.689-8.664-57.654C51.195 1.716 36.442-14.37 15.97-15.435-6.201-16.588-28.564-5.59-38.658 14.183c-9.426 18.465-.031 39.159 10.359 57.099 10.356 17.881 23.64 36.015 44.269 37.223M1346.376 570.128c82.121 6.24 163.902-39.981 200.499-113.761 33.634-67.808-3.266-142.229-40.965-207.864-37.91-66.002-83.429-142.468-159.534-141.208-75.023 1.242-118.299 78.637-150.637 146.344-27.074 56.685-30.222 119.081-3.225 175.803 32.011 67.256 79.591 135.043 153.862 140.686M896.909 627.644l75.137 107.525 50.268-103.064z"
+            fill="rgba(28, 83, 142, 0.4)" class="prefix__triangle-float2" />
+        <path
+            d="M810.942 254.096c58.132-.391 116.898-19.032 147.662-68.358 32.463-52.05 33.951-119.293 2.055-171.693-30.772-50.554-90.56-72.653-149.717-70.894-55.938 1.664-105.632 31.756-135.05 79.363-31.179 50.457-45.977 113.999-16.098 165.236 29.708 50.943 92.176 66.743 151.148 66.346"
+            fill="rgba(28, 83, 142, 0.4)" class="prefix__triangle-float3" />
+    </g>
+    <defs>
+        <linearGradient x1="13.12%" y1="-27.63%" x2="86.88%" y2="127.63%" gradientUnits="userSpaceOnUse"
+            id="prefix__SvgjsLinearGradient2017">
+            <stop stop-color="#C4D7E0" offset="0" />
+            <stop stop-color="#6E85B7" offset="1" />
+        </linearGradient>
+        <style>
+            @keyframes float1 {
+
+                0%,
+                to {
+                    transform: translate(0, 0)
+                }
+
+                50% {
+                    transform: translate(-10px, 0)
+                }
+            }
+
+            @keyframes float2 {
+
+                0%,
+                to {
+                    transform: translate(0, 0)
+                }
+
+                50% {
+                    transform: translate(-5px, -5px)
+                }
+            }
+
+            @keyframes float3 {
+
+                0%,
+                to {
+                    transform: translate(0, 0)
+                }
+
+                50% {
+                    transform: translate(0, -10px)
+                }
+            }
+
+            .prefix__triangle-float1 {
+                animation: float1 5s infinite
+            }
+
+            .prefix__triangle-float2 {
+                animation: float2 4s infinite
+            }
+
+            .prefix__triangle-float3 {
+                animation: float3 6s infinite
+            }
+        </style>
+        <mask id="prefix__SvgjsMask2016">
+            <path fill="#fff" d="M0 0h1600v760H0z" />
+        </mask>
+    </defs>
+</svg>
