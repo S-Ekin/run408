@@ -3,7 +3,7 @@
   ["src_data_logs_json"],
   {
     "./src/data/logs.json": function (a) {
-      a.exports = JSON.parse(`{}`);
+      a.exports = JSON.parse({});
     },
   },
 ]);

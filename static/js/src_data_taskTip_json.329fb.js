@@ -3,7 +3,7 @@
   ["src_data_taskTip_json"],
   {
     "./src/data/taskTip.json": function (e) {
-      e.exports = JSON.parse(`{}`);
+      e.exports = JSON.parse({});
     },
   },
 ]);
