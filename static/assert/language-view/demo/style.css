@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+
+html{
+  height: 100%;
+}
+/* Base styles */
+body {
+  font-family: PT Sans, DejaVu Sans, Arial, sans;
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  font-size: 20px;
+  display: flex;
+  height: 100%;
+}
+
+a {
+  color: #055049;
+}
+
+h1 {
+  font-size: 150%;
+  margin: 0;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+pre {
+  margin: 0;
+  box-shadow: 0 0 #0000,0 0 #0000,0 0 #0000,0 0 #0000,7px 7px 15px 0 #000;
+  border-radius: 18px;
+  white-space: pre-wrap;
+}
+
+code {
+  display: block;
+  font-family: Consolas, Monaco, monospace;
+  font-size: 20px;
+  overflow-x: auto;
+  padding: 0.5em;
+  scrollbar-width: thin;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  border-radius: 18px;
+  line-height: 1.5em;
+}
+
+pre code.hljs {
+  /* compatible with school-book */
+  padding: 16px 30px 20px;
+}
+
+aside {
+  bottom: 0;
+  box-shadow: 0 0 1em #000000;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em 1.5em 1em;
+  width: 17em;
+  box-sizing: border-box;
+}
+
+.categories {
+  flex: 0 4 40%;
+}
+
+header{
+  height: 50px;
+  line-height: 50px;
+}
+
+.styles {
+  flex: 1 1 35%;
+}
+
+aside ul,
+aside li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside ul {
+  position: relative;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  padding-right: 10px;
+}
+
+aside ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+aside ul::-webkit-scrollbar-track {
+  background: #4d0607;
+  border-radius: 5px;
+}
+
+aside ul::-webkit-scrollbar-thumb {
+  background: #926868;
+  border-right: 1px solid #4d0607;
+  border-left: 1px solid #4d0607;
+  border-radius: 5px;
+}
+
+aside ul::-webkit-scrollbar-thumb:hover {
+  background: #7f5555;
+}
+
+aside ul::-webkit-scrollbar-thumb:active {
+  background: #5d3333;
+}
+
+aside ul a {
+  display: block;
+  padding: 1px 0.5em 1px 1em;
+  text-decoration: none;
+}
+
+aside ul a:focus,
+aside ul a:hover {
+  background: #A1E3D8;
+  outline: none;
+  border-radius: 6px;
+}
+
+aside ul a.current:before {
+  content: "▶";
+  font-size: smaller;
+  position: absolute;
+  left: 0;
+}
+
+main {
+  padding: 1px 2em;
+  padding-left: 3em;
+  flex: 1;
+  overflow: auto;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: beige;
+}
+
+main > div {
+  margin: 2.5em 0 3em;
+}
+
+.hidden {
+  display: none;
+}
+
+.hljs-ln td.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ 
+    text-align: center;
+    color: #ccc;
+    border-right: 1px solid #CCC;
+    vertical-align: top;
+    padding-right: 10px;
+ 
+    /* your custom style here */
+}
+ 
+/* for block of code */
+.hljs-ln td.hljs-ln-code {
+    padding-left: 16px;
+}

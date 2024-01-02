@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1000">
-	<path fill="#305" d="M0 0h100v1000H0z" />
+	<g transform="rotate(180, 50, 500)"> 
+		<path fill="#305" d="M0 0h100v1000H0z" />
 	<circle fill="#305" cx="50" r="50" />
 	<g fill="#3a015d">
 		<circle cy="50" r="50" />
@@ -51,4 +52,6 @@
 		<circle cx="100" cy="950" r="50" />
 	</g>
 	<circle fill="#D0F" cx="50" cy="1000" r="50" />
+   </g>
+	
 </svg>

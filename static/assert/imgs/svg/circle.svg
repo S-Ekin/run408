@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800">
 	<path fill="#ff9d00" d="M0 0h1600v800H0z" />
-	<g stroke="#000" opacity="0.5" stroke-width="66.7" stroke-opacity=".05">
+	<g stroke="#000" opacity="0.5" stroke-width="66.7" stroke-opacity=".05" transform="rotate(180, 0, 400)">
 		<circle fill="#ff9d00" r="1800" />
 		<circle fill="#fb8d17" r="1700" />
 		<circle fill="#f47d24" r="1600" />
